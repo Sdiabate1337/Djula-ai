@@ -24,7 +24,7 @@ export const WHATSAPP_CONFIG = {
   AUTH_DIR: join(process.cwd(), '.whatsapp_auth'),
   
   // Configuration régionale
-  DEFAULT_COUNTRY_CODE: COUNTRY_CODES.SENEGAL, // Code pays par défaut
+  DEFAULT_COUNTRY_CODE: COUNTRY_CODES.IVORY_COAST, // Code pays par défaut
   SUPPORTED_COUNTRIES: COUNTRY_CODES,
   
   // Configuration des langues
@@ -43,6 +43,6 @@ export const WHATSAPP_CONFIG = {
   },
 
   // Timeouts et intervalles
-  CONNECTION_TIMEOUT: 60000,
+  CONNECTION_TIMEOUT: 120000,
   RECONNECT_INTERVAL: 5000
 };

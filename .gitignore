@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+dist/
+
+# Environment variables
+.env
+
+# WhatsApp auth and media
+.whatsapp_auth/
+.whatsapp_media/
+
+# Logs
+*.log
+*.sh
